@@ -1,0 +1,14 @@
+2026-01-15 11:44:21 | ERROR | The user_id -1 you are searching for does not exist | UsersClient
+2026-01-15 11:44:21 | ERROR | The status code is 404 | UsersClient
+2026-01-16 10:00:20 | ERROR | TEST TIMEOUT: tests/test_users.py::test_get_all_users_returns_list_of_valid_users | pytest
+2026-01-19 08:29:28 | ERROR | The user_id -1 you are searching for does not exist | UsersClient
+2026-01-19 08:29:28 | ERROR | The status code is 404 | UsersClient
+2026-01-19 15:24:11 | ERROR | The user_id -1 you are searching for does not exist | UsersClient
+2026-01-19 15:24:11 | ERROR | The status code is 404 | UsersClient
+2026-01-20 15:00:57 | ERROR | The user_id -1 you are searching for does not exist | UsersClient
+2026-01-20 15:00:57 | ERROR | The status code is 404 | UsersClient
+2026-01-20 15:06:19 | ERROR | The user_id -1 you are searching for does not exist | UsersClient
+2026-01-20 15:06:19 | ERROR | The status code is 404 | UsersClient
+2026-01-22 15:18:42 | ERROR | Final attempt 3/3 failed: GET https://jsonplaceholder.typicode.com/users returned 200 | http.retry
+2026-01-29 11:08:50 | ERROR | The user_id -1 you are searching for does not exist | UsersClient
+2026-01-29 11:08:50 | ERROR | The status code is 404 | UsersClient

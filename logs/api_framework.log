@@ -1,0 +1,35 @@
+2026-01-30 17:12:11 | INFO | === START test_get_all_users_returns_list_of_valid_users === | api_framework.pytest
+2026-01-30 17:12:11 | INFO | GET https://jsonplaceholder.typicode.com/users | api_framework.UsersClient
+2026-01-30 17:12:12 | DEBUG | Request headers: {'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'X-Framework': 'MiniAPI3-Users'} | api_framework.UsersClient
+2026-01-30 17:12:12 | INFO | Status code: 200 | api_framework.UsersClient
+2026-01-30 17:12:12 | INFO | GET https://jsonplaceholder.typicode.com/users took 0.665s | api_framework.http-request.timing
+2026-01-30 17:12:12 | INFO | === END test_get_all_users_returns_list_of_valid_users === | api_framework.pytest
+2026-01-30 17:12:12 | INFO | ================================================================================ | api_framework.pytest
+2026-01-30 17:15:53 | INFO | === START test_get_all_users_returns_list_of_valid_users === | api_framework.pytest
+2026-01-30 17:15:53 | INFO | GET https://jsonplaceholder.typicode.com/users | api_framework.UsersClient
+2026-01-30 17:15:54 | DEBUG | Request headers: {'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'X-Framework': 'MiniAPI3-Users'} | api_framework.UsersClient
+2026-01-30 17:15:54 | INFO | Status code: 200 | api_framework.UsersClient
+2026-01-30 17:15:54 | INFO | GET https://jsonplaceholder.typicode.com/users took 0.396s | api_framework.http-request.timing
+2026-01-30 17:15:54 | INFO | === END test_get_all_users_returns_list_of_valid_users === | api_framework.pytest
+2026-01-30 17:15:54 | INFO | ================================================================================ | api_framework.pytest
+2026-01-30 17:22:08 | INFO | === START test_get_all_users_returns_list_of_valid_users === | api_framework.pytest
+2026-01-30 17:22:08 | INFO | GET https://jsonplaceholder.typicode.com/users | api_framework.UsersClient
+2026-01-30 17:22:09 | DEBUG | Request headers: {'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'X-Framework': 'MiniAPI3-Users'} | api_framework.UsersClient
+2026-01-30 17:22:09 | INFO | Status code: 200 | api_framework.UsersClient
+2026-01-30 17:22:09 | INFO | GET https://jsonplaceholder.typicode.com/users took 0.472s | api_framework.http-request.timing
+2026-01-30 17:22:09 | INFO | === END test_get_all_users_returns_list_of_valid_users === | api_framework.pytest
+2026-01-30 17:22:09 | INFO | ================================================================================ | api_framework.pytest
+2026-01-30 17:23:49 | INFO | === START test_get_all_users_returns_list_of_valid_users === | pytest
+2026-01-30 17:23:49 | INFO | GET https://jsonplaceholder.typicode.com/users | UsersClient
+2026-01-30 17:23:50 | DEBUG | Request headers: {'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'X-Framework': 'MiniAPI3-Users'} | UsersClient
+2026-01-30 17:23:50 | INFO | Status code: 200 | UsersClient
+2026-01-30 17:23:50 | INFO | GET https://jsonplaceholder.typicode.com/users took 0.424s | http-request.timing
+2026-01-30 17:23:50 | INFO | === END test_get_all_users_returns_list_of_valid_users === | pytest
+2026-01-30 17:23:50 | INFO | ================================================================================ | pytest
+2026-03-03 15:40:52 | INFO | === START test_get_all_users_returns_list_of_valid_users === | pytest
+2026-03-03 15:40:52 | INFO | GET https://jsonplaceholder.typicode.com/users | UsersClient
+2026-03-03 15:40:53 | DEBUG | Request headers: {'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'X-Framework': 'MiniAPI3-Users'} | UsersClient
+2026-03-03 15:40:53 | INFO | Status code: 200 | UsersClient
+2026-03-03 15:40:53 | INFO | GET https://jsonplaceholder.typicode.com/users took 0.636s | http-request.timing
+2026-03-03 15:40:53 | INFO | === END test_get_all_users_returns_list_of_valid_users === | pytest
+2026-03-03 15:40:53 | INFO | ================================================================================ | pytest

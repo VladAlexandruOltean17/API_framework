@@ -1,0 +1,6 @@
+{
+  "sample_user_ids": [1, 2],
+  "invalid_user_ids": [-1, 99999],
+  "sample_post_ids": [1, 2],
+  "invalid_post_ids": [-1, 99999]
+}
