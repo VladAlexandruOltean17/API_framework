@@ -10,11 +10,15 @@ def load_config(pytest_config=None):
     -timeout
     -log_level
     """
-    env = (
-        pytest_config.getoption("--env")
-        if pytest_config and pytest_config.getoption("--env")
-        else os.getenv("TEST_ENV", "DEV")
-    ).upper()
+
+    # set up the environment
+    if pytest_config:
+        cli_env = pytest_config.getoption("--env")
+    else:
+        cli_env = None
+
+    env = cli_env or os.getenv("TEST_ENV", "DEV")
+    env = env.upper()
 
     project_root = Path(__file__).resolve().parents[2]
     config_path = project_root / "config" / "config.ini" # needs this because the config.ini was not in src but at the

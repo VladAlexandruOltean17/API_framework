@@ -33,3 +33,10 @@
 2026-03-03 15:40:53 | INFO | GET https://jsonplaceholder.typicode.com/users took 0.636s | http-request.timing
 2026-03-03 15:40:53 | INFO | === END test_get_all_users_returns_list_of_valid_users === | pytest
 2026-03-03 15:40:53 | INFO | ================================================================================ | pytest
+2026-03-06 09:20:49 | INFO | === START test_get_all_users_returns_list_of_valid_users === | pytest
+2026-03-06 09:20:49 | INFO | GET https://jsonplaceholder.typicode.com/users | UsersClient
+2026-03-06 09:20:50 | DEBUG | Request headers: {'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'X-Framework': 'MiniAPI3-Users'} | UsersClient
+2026-03-06 09:20:50 | INFO | Status code: 200 | UsersClient
+2026-03-06 09:20:50 | INFO | GET https://jsonplaceholder.typicode.com/users took 0.522s | http-request.timing
+2026-03-06 09:20:50 | INFO | === END test_get_all_users_returns_list_of_valid_users === | pytest
+2026-03-06 09:20:50 | INFO | ================================================================================ | pytest
